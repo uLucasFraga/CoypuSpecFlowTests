@@ -4,5 +4,5 @@ packages
 .git
 bin
 obj
-CFlowTests\bin
-CFlowTests\obj
+CoypuSpecFlowTests\bin
+CoypuSpecFlowTests\obj
