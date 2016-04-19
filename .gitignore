@@ -1,0 +1,8 @@
+
+packages
+.vs
+.git
+bin
+obj
+CFlowTests\bin
+CFlowTests\obj

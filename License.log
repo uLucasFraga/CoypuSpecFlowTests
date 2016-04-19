@@ -1,0 +1,80 @@
+    ======  ======
+    Time:19/04/2016 15:10:38
+    Title: Initiate log
+    Message: 
+    Time:19/04/2016 15:10:38
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:19/04/2016 15:10:38
+    Title: Requesting EVT
+    Message: EVTP
+    Time:19/04/2016 15:10:38
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:19/04/2016 15:10:38
+    Title: LICENSER
+    Message: TRL MODE
+    Time:19/04/2016 15:10:38
+    Title: LICENSER
+    Message: DS LEFT18
+    Time:19/04/2016 15:10:38
+    Title: LICENSER
+    Message: DT MARK PASSED18.00:00:00
+    Time:19/04/2016 15:10:39
+    Title: Access to the path 'C:\ProgramData\Telerik\Hash.lic' is denied.
+    Message:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Telerik.Licensing.Licenser.ReadHashPass()
+    Time:19/04/2016 15:10:48
+    Title: Requesting Validation
+    Message: ILMValidate True
+    Time:19/04/2016 15:10:48
+    Title: Requesting Validation
+    Message: ILMValidate True Trial
+    Time:19/04/2016 15:10:48
+    Title: Requested registry access is not allowed.
+    Message:    at System.ThrowHelper.ThrowSecurityException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+   at Telerik.Licensing.Licenser.CheckRegistryTimeStamp()
+   at Telerik.Licensing.Licenser.TryCheckLicenseExists()
+    Time:19/04/2016 15:10:48
+    Title: LICENSER
+    Message: READ REGS START
+    Time:19/04/2016 15:10:48
+    Title: LIC EXP_KEY
+    Message: NULL
+    Time:19/04/2016 15:10:48
+    Title: LICENSER
+    Message: READ REGS SUCCESS
+    Entering constructor for: Microsoft.PythonTools.PythonToolsPackage
+    Entering Initialize() of: Microsoft.PythonTools.PythonToolsPackage
+    Entering constructor for: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering Initialize() of: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering constructor for: TechTalk.SpecFlow.VsIntegration.SpecFlowPackagePackage
+    Entering Initialize() of: TechTalk.SpecFlow.VsIntegration.SpecFlowPackagePackage
+    TestWindow package loaded
+    Informational: ------ Load Playlist started ------
+    Informational: ========== Load Playlist finished (0:00:00,0075068) ==========
+    devenv.exe Information: 0 : 19/04/2016 18:11:21:  - TokenCache: Deserialized 2 items to token cache.
+    Informational: ------ Discover test started ------
+    Informational: NUnit Adapter 3.0.9.0 discovering tests is started
+    Informational: Assembly contains no NUnit 3.0 tests: C:\Source\git\CoypuSpecFlowTests\CoypuSpecFlowTests\bin\Debug\CFlowTests.dll
+    Informational: NUnit Adapter 3.0.9.0 discovering test is finished
+    Informational: ========== Discover test finished: 0 found (0:00:04,2420354) ==========
+    Informational: ------ Discover test started ------
+    Informational: NUnit Adapter 3.0.9.0 discovering tests is started
+    Informational: Assembly contains no NUnit 3.0 tests: C:\Source\git\CoypuSpecFlowTests\CoypuSpecFlowTests\bin\Debug\CFlowTests.dll
+    Informational: NUnit Adapter 3.0.9.0 discovering test is finished
+    Informational: SpecRun: not SpecRun assembly - skip: C:\Source\git\CoypuSpecFlowTests\CoypuSpecFlowTests\bin\Debug\CFlowTests.dll
+    Informational: [xUnit.net 00:00:00.5693479]   Discovering: CFlowTests
+    Informational: [xUnit.net 00:00:01.0989823]   Discovered:  CFlowTests
+    Informational: ========== Discover test finished: 1 found (0:00:01,9434045) ==========
+    Informational: ------ Discover test started ------
+    Informational: NUnit Adapter 3.0.9.0 discovering tests is started
+    Informational: SpecRun: not SpecRun assembly - skip: C:\Source\git\CoypuSpecFlowTests\CoypuSpecFlowTests\bin\Debug\CFlowTests.dll
+    Informational: Assembly contains no NUnit 3.0 tests: C:\Source\git\CoypuSpecFlowTests\CoypuSpecFlowTests\bin\Debug\CFlowTests.dll
+    Informational: NUnit Adapter 3.0.9.0 discovering test is finished
+    Informational: [xUnit.net 00:00:00.4395641]   Discovering: CFlowTests
+    Informational: [xUnit.net 00:00:00.6157805]   Discovered:  CFlowTests
+    Informational: ========== Discover test finished: 1 found (0:00:00,7110862) ==========
